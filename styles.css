@@ -119,11 +119,14 @@ li a {
 .box {
   border: 1px solid #ddd;
   padding: 10px;
+  height: auto;
+  overflow: hidden;
+  width: 100%;
 }
 .box img {
-  min-width: 800px;
-  max-width: 1000px;
-  max-height: 500px;
+  min-width: calc(100% - 10px);
+  height: 400px;
+  object-fit: cover;
 }
 .box h3 {
   font-size: 32px;

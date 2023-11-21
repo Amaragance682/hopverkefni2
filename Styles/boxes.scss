@@ -1,3 +1,4 @@
+
 #product-container {
     display: grid;
     grid-template-rows: auto auto; 
@@ -11,13 +12,15 @@
 .box {
     border: 1px solid #ddd; 
     padding: 10px;
+    height: auto;
+    overflow: hidden;
+    width: 100%;
 
     
     img {
-
-        min-width: 800px;
-        max-width: 1000px;
-        max-height: 500px;
+        min-width: calc(100% - 10px);
+        height: 400px; 
+        object-fit: cover;
 
     }
     h3 {
