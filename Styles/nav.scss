@@ -1,0 +1,28 @@
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: 1fr 1fr; 
+    height: 100%; 
+
+}
+
+.top-links, .bottom-links {
+    display: flex; 
+    
+
+}
+.bottom-links {
+    justify-content: center;
+}
+
+.nav-links li {
+    padding: 0 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
