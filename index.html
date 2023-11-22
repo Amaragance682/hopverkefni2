@@ -11,7 +11,7 @@
     <body>
         <header class="header">
             <div class="headerPart1">
-                <h1> Vefforritunarbúðin </h1>
+                <h1><a href="/">Vefforritunarbúðin</a></h1>
             </div>
             <div class="headerPart2">
                 <ul class="nav-links">
@@ -21,37 +21,33 @@
                         <a href="#">Karfa</a>
                     </li>
                     <li class="bottom-links">
-                        <a href="#">Nýjar vörur</a>
-                        <a href="#">Flokkar</a>
+                        <a href="/?products">Nýjar vörur</a>
+                        <a href="/?categories">Flokkar</a>
                     </li>
                 </ul>
             </div>  
         </header>
 
         <main>
-            <div class="content">
-                <h2>Nýar vörur</h2>
-                    <!-- 
+            <div class="content" id="content">
+                <!-- 
                     <div class="searchBar">
                         <label for="search-input">Leita:</label>
                         <input type="text" id="search-input" placeholder="Search...">
                         <button type="submit" id="search-button">Leita</button>
                     </div>
                     -->
-
+                    
                     <div class="container" id="product-container"> <!-- svæði fyrir allt javascript tengt boxunum(talið við ragnar!!) -->
                         
                     </div>
 
-                    <div class="buttonDiv"> <!-- velja síðu n´sheet -->
-                        <button type="submit" id="search-button">Skoða alla flokka</button>
+                    <div class="buttonDiv" id="buttonDiv"> <!-- velja síðu n´sheet -->
                     </div>
-
-                    <div class="containerBottom" id="product-containerBottom"> <!-- fyrir categories af hlutum. svæði fyrir allt javascript tengt boxunum(talið við ragnar!!) -->
+                    <div class="categories" id="categories-container"> <!-- fyrir categories af hlutum. svæði fyrir allt javascript tengt boxunum(talið við ragnar!!) -->
 
                     </div>
 
-                    </div>
 
 
 
