@@ -183,6 +183,7 @@ h1 a {
 .productBlock img {
   max-width: 50%;
   min-width: 50%;
+  max-height: 500px;
 }
 .productBlock .productDesc {
   padding: 15px;
