@@ -14,6 +14,7 @@
 #search-button {
     padding: 5px 15px;
     color: white;
+    background-color: black;
     border: none;
     cursor: pointer;
     font-size: 20px;
@@ -33,7 +34,12 @@
     }
 
     #search-button {
-        font-size: 40px;
+        font-size: 30px;
+        a {
+            color: aliceblue;
+            text-decoration: none;
+        }
+
     }
     
 }
