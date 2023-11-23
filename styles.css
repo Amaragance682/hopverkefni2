@@ -86,8 +86,8 @@ li a {
 
 #search-button {
   padding: 5px 15px;
-  background-color: black;
   color: white;
+  background-color: black;
   border: none;
   cursor: pointer;
   font-size: 20px;
@@ -102,11 +102,20 @@ li a {
   padding-top: 2rem;
 }
 .buttonDiv button {
-  width: 600px;
+  width: 400px;
   height: 70px;
 }
 .buttonDiv #search-button {
-  font-size: 40px;
+  font-size: 30px;
+}
+.buttonDiv #search-button a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+h1 a {
+  text-decoration: none;
+  color: aliceblue;
 }
 
 #product-container {
@@ -136,11 +145,13 @@ li a {
   display: table;
   height: 500px;
   text-align: center;
-  font-size: 32px;
+  font-size: 64px;
   font-weight: bold;
   border: 2px solid black;
 }
 #categories-container .box a {
+  text-decoration: none;
+  color: black;
   display: table-cell;
   vertical-align: middle;
   padding: 10px;
