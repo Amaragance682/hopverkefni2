@@ -3,10 +3,42 @@
     display: grid;
     grid-template-rows: auto auto; 
     grid-template-columns: repeat(3, 1fr); 
-    gap: 10px; 
+    gap: 30px; 
+    @media (max-width: 600px) {
+        grid-template-columns: repeat(1, 1fr); 
+
+      }
 }
 
+#categories-container {
+    display: grid;
+    grid-template-rows: auto auto; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px; 
+    @media (max-width: 600px) {
+        grid-template-columns: repeat(1, 1fr); 
 
+      }
+    
+
+
+    .box {
+        display: table;
+        height: 500px;
+        text-align: center;
+        font-size: 32px;
+        font-weight: bold;
+        border: 2px solid black;
+
+        a {
+            display: table-cell;
+            vertical-align: middle;
+            padding: 10px;
+            //background-image: url('/Assets/P7Ykax-4288591902.jpg');
+            //background-size: cover;
+        }
+    }
+}
 
 
 .box {
@@ -32,3 +64,19 @@
 }
 
 
+.productBlock {
+    display: flex;
+    flex-flow: row;
+
+    img {
+        max-width: 50%;
+        min-width: 50%;
+    }
+
+
+    .productDesc {
+        padding: 15px;
+    }
+
+
+}
