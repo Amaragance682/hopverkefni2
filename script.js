@@ -51,6 +51,7 @@ function displayProducts(products, headingText, buttonBool) {
     }
 }
 
+// display categories
 function displayCategories(categories) {
     const content = document.getElementById('content');
     const container = document.getElementById('categories-container');
@@ -67,6 +68,7 @@ function displayCategories(categories) {
     content.insertBefore(heading, container);
 }
 
+// Display products
 function displayCategoryProducts(headingText, category, limit, from) {
     fetch(`https://vef1-2023-h2-api-791d754dda5b.herokuapp.com/products?offset=${from}&category=${category}&limit=99`)
     .then(response => response.json())
